@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url("https://picsum.photos/1600/900?random=1");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caixa-maior {
+    width: 95%;
+    max-width: 400px;
+   
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: dimgray;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: dimgray;
+    cursor: pointer;
+    float: right;
+    color: white;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+
+h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+
+.temp {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.text-previsao {
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+
+
+.umidade {
+    color: white;
+    margin-top: 20px;
+}
